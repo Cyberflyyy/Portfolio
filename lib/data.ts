@@ -35,29 +35,37 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: 'Stażysta w dziale IT',
+    location: 'NASK ',
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-  {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
-  },
-  {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+        'Nauczyłem się jak naprawdę wygląda praca w firmie programistycznej przy dużym projekcie',
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: 'kwi 2021 – sie 2021 · 5 mies.'
   },
+  {
+    title: 'Stażysta front-end',
+    location: 'T-Matic Grupa Computer Plus',
+    description:
+        'Pracowałem nad programem optymalizującym wybór usługi którą firma sprzedawała używająć HTML, Css, JavaScript, PHP',
+    icon: React.createElement(CgWorkAlt),
+    date: 'maj 2022 – cze 2022 · 2 mies'
+  },
+  {
+    title: 'Ukończyłem Technikum Programistyczne  ',
+    location: 'Infotech',
+    description:
+        'Ukończyłem technikum ze zdaną Maturą i zawodem Technik Programista',
+    icon: React.createElement(LuGraduationCap),
+    date: '2023'
+  },
+  {
+    title: 'Zaczynam studia informatyczne  ',
+    location: 'Politechnika Wrocławska',
+    description:
+        '',
+    icon: React.createElement(LuGraduationCap),
+    date: 'Now'
+  }
 ] as const;
 
 export const projectsData = [
@@ -85,23 +93,14 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "TypeScript",
-  "React",
-  "Next.js",
-  "Node.js",
-  "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
+  'HTML',
+  'CSS',
+  'JavaScript',
+  'TypeScript',
+  'React',
+  'Next.js',
+  'Git',
+  'Tailwind',
+  'Python',
+  'Framer Motion'
 ] as const;
