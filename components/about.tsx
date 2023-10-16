@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
 
 export default function About() {
-  const { ref } = useSectionInView("About");
+  const { ref } = useSectionInView("O mnie");
 
   return (
     <motion.section
@@ -15,7 +15,7 @@ export default function About() {
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.175 }}
-      id="about"
+      id="O mnie"
     >
       <SectionHeading>O mnie</SectionHeading>
       <p className="mb-3 ">

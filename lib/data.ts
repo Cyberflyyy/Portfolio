@@ -8,29 +8,31 @@ import wordanalyticsImg from "@/public/wordanalytics.png";
 
 export const links = [
   {
-    name: "Home",
-    hash: "#home",
+    name: 'Start',
+    hash: '#Start'
   },
   {
-    name: "About",
-    hash: "#about",
+    name: 'O mnie',
+    hash: '#O mnie'
+  },
+
+  {
+    name: 'Umiejętności',
+    hash: '#Umiejętności'
+  },
+  /* {
+    name: 'Projekty',
+    hash: '#Projekty'
+  }, */
+
+  {
+    name: 'Doświadczenie',
+    hash: '#Doświadczenie'
   },
   {
-    name: "Projects",
-    hash: "#projects",
-  },
-  {
-    name: "Skills",
-    hash: "#skills",
-  },
-  {
-    name: "Experience",
-    hash: "#experience",
-  },
-  {
-    name: "Contact",
-    hash: "#contact",
-  },
+    name: 'Kontakt',
+    hash: '#Kontakt'
+  }
 ] as const;
 
 export const experiencesData = [
