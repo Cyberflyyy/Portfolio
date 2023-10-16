@@ -11,7 +11,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Bartłomiej Karpiński",
-  
+
 };
 
 export default function RootLayout({
