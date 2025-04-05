@@ -17,7 +17,7 @@ export default function Intro() {
   return (
     <section
       ref={ref}
-      id="home"
+      id="Start"
       className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]"
     >
       <div className="flex items-center justify-center">
@@ -30,7 +30,15 @@ export default function Intro() {
               duration: 0.2,
             }}
           >
-            <Image src="/nowyja.png" alt="photo" width="192" height="192" quality="95" priority={true} className="w-40 h-40 rounded-full object-cover shadow-xl border-[0.35rem] border-white  " />
+            <Image
+              src="/nowyja.png"
+              alt="photo"
+              width="192"
+              height="192"
+              quality="95"
+              priority={true}
+              className="w-40 h-40 rounded-full object-cover shadow-xl border-[0.35rem] border-white  "
+            />
           </motion.div>
 
           <motion.span
@@ -49,11 +57,18 @@ export default function Intro() {
         </div>
       </div>
 
-      <motion.h1 className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl" initial={{ opacity: 0, y: 100 }} animate={{ opacity: 1, y: 0 }}>
-        <span className="font-bold">Cześć, jestem Bartek.</span> W technikum programistycznym moją pasją stało się{' '}
-        <span className="font-bold">pisanie stron internetowych</span> które rozwijam od 3 lat
-        <span className="font-bold"></span>. Uwielbiam tworzyć i rozwiązywać problemy a pomaga mi to że jestem bardzo kreatywny. Mój nacisk w nauce kieruje się na{' '}
-        <span>React (Next.js)</span>.
+      <motion.h1
+        className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
+        initial={{ opacity: 0, y: 100 }}
+        animate={{ opacity: 1, y: 0 }}
+      >
+        <span className="font-bold">Cześć, jestem Bartek.</span> W technikum
+        programistycznym moją pasją stało się{" "}
+        <span className="font-bold">pisanie stron internetowych</span> które
+        rozwijam od 3 lat
+        <span className="font-bold"></span>. Uwielbiam tworzyć i rozwiązywać
+        problemy a pomaga mi to że jestem bardzo kreatywny. Mój nacisk w nauce
+        kieruje się na <span>React (Next.js)</span>.
       </motion.h1>
 
       <motion.div
@@ -76,9 +91,30 @@ export default function Intro() {
           <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
         </Link>
 
-        <a href="/CV.pdf" download className=" group bg-white cursor-pointer border border-black/10   px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110  active:scale-105 transition dark:bg-white/10 dark:text-white/60  ">Pobierz CV <HiDownload className="opacity-60 group-hover:translate-y-1"/></a>
-        <a href="https://www.linkedin.com/in/bartłomiej-karpiński-a8940526a/" target="_blank" className=" bg-white text-gray-700 min-h-[52px]  text-[1.35rem] px-4 py-3 flex items-center gap-2 rounded-full border border-black/10 focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer dark:bg-white/10 dark:text-white/60 " rel="noreferrer"><BsLinkedin></BsLinkedin></a>
-        <a href="https://github.com/B4rtex777" target="_blank" className=" bg-white text-gray-700  px-4 py-3 flex items-center text-[1.58rem] min-h-[52px]  gap-2 rounded-full border border-black/10 focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 cursor-pointer  active:scale-105 transition dark:bg-white/10 dark:text-white/60" rel="noreferrer"><FaGithubSquare></FaGithubSquare></a>
+        <a
+          href="/CV.pdf"
+          download
+          className=" group bg-white cursor-pointer border border-black/10   px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110  active:scale-105 transition dark:bg-white/10 dark:text-white/60  "
+        >
+          Pobierz CV{" "}
+          <HiDownload className="opacity-60 group-hover:translate-y-1" />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/bartłomiej-karpiński-a8940526a/"
+          target="_blank"
+          className=" bg-white text-gray-700 min-h-[52px]  text-[1.35rem] px-4 py-3 flex items-center gap-2 rounded-full border border-black/10 focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer dark:bg-white/10 dark:text-white/60 "
+          rel="noreferrer"
+        >
+          <BsLinkedin></BsLinkedin>
+        </a>
+        <a
+          href="https://github.com/B4rtex777"
+          target="_blank"
+          className=" bg-white text-gray-700  px-4 py-3 flex items-center text-[1.58rem] min-h-[52px]  gap-2 rounded-full border border-black/10 focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 cursor-pointer  active:scale-105 transition dark:bg-white/10 dark:text-white/60"
+          rel="noreferrer"
+        >
+          <FaGithubSquare></FaGithubSquare>
+        </a>
       </motion.div>
     </section>
   );

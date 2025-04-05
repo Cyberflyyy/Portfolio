@@ -8,66 +8,65 @@ import wordanalyticsImg from "@/public/wordanalytics.png";
 
 export const links = [
   {
-    name: 'Start',
-    hash: '#Start'
+    name: "Start",
+    hash: "#Start",
   },
   {
-    name: 'O mnie',
-    hash: '#O mnie'
+    name: "O mnie",
+    hash: "#O mnie",
   },
 
   {
-    name: 'Umiejętności',
-    hash: '#Umiejętności'
+    name: "Umiejętności",
+    hash: "#Umiejętności",
   },
-  /* {
-    name: 'Projekty',
-    hash: '#Projekty'
-  }, */
+  {
+    name: "Projekty",
+    hash: "#Projekty",
+  },
 
   {
-    name: 'Doświadczenie',
-    hash: '#Doświadczenie'
+    name: "Doświadczenie",
+    hash: "#Doświadczenie",
   },
   {
-    name: 'Kontakt',
-    hash: '#Kontakt'
-  }
+    name: "Kontakt",
+    hash: "#Kontakt",
+  },
 ] as const;
 
 export const experiencesData = [
   {
-    title: 'Stażysta w dziale IT',
-    location: 'NASK ',
+    title: "Stażysta w dziale IT",
+    location: "NASK ",
     description:
-        'Nauczyłem się jak naprawdę wygląda praca w firmie programistycznej przy dużym projekcie',
+      "Nauczyłem się jak naprawdę wygląda praca w firmie programistycznej przy dużym projekcie",
     icon: React.createElement(FaReact),
-    date: 'kwi 2021 – sie 2021 · 5 mies.'
+    date: "kwi 2021 – sie 2021 · 5 mies.",
   },
   {
-    title: 'Stażysta front-end',
-    location: 'T-Matic Grupa Computer Plus',
+    title: "Stażysta front-end",
+    location: "T-Matic Grupa Computer Plus",
     description:
-        'Pracowałem nad programem optymalizującym wybór usługi którą firma sprzedawała używająć HTML, Css, JavaScript, PHP',
+      "Pracowałem nad programem optymalizującym wybór usługi którą firma sprzedawała używająć HTML, Css, JavaScript, PHP",
     icon: React.createElement(CgWorkAlt),
-    date: 'maj 2022 – cze 2022 · 2 mies'
+    date: "maj 2022 – cze 2022 · 2 mies",
   },
   {
-    title: 'Ukończyłem Technikum Programistyczne  ',
-    location: 'Infotech',
+    title: "Ukończyłem Technikum Programistyczne  ",
+    location: "Infotech",
     description:
-        'Ukończyłem technikum ze zdaną Maturą i zawodem Technik Programista',
+      "Ukończyłem technikum ze zdaną Maturą i zawodem Technik Programista",
     icon: React.createElement(LuGraduationCap),
-    date: '2023'
+    date: "2023",
   },
   {
-    title: 'Zaczynam studia informatyczne  ',
-    location: 'Politechnika Wrocławska',
-    description:
-        '',
+    title: "Zaczynam studia informatyczne  ",
+    location: "Politechnika Wrocławska",
+    description: "",
     icon: React.createElement(LuGraduationCap),
-    date: 'Now'
-  }
+    date: "Now",
+  },
 ] as const;
 
 export const projectsData = [
@@ -95,14 +94,14 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
-  'HTML',
-  'CSS',
-  'JavaScript',
-  'TypeScript',
-  'React',
-  'Next.js',
-  'Git',
-  'Tailwind',
-  'Python',
-  'Framer Motion'
+  "HTML",
+  "CSS",
+  "JavaScript",
+  "TypeScript",
+  "React",
+  "Next.js",
+  "Git",
+  "Tailwind",
+  "Python",
+  "Framer Motion",
 ] as const;
