@@ -99,22 +99,24 @@ export default function Intro() {
           Pobierz CV{" "}
           <HiDownload className="opacity-60 group-hover:translate-y-1" />
         </a>
-        <a
-          href="https://www.linkedin.com/in/bartłomiej-karpiński-a8940526a/"
-          target="_blank"
-          className=" bg-white text-gray-700 min-h-[52px]  text-[1.35rem] px-4 py-3 flex items-center gap-2 rounded-full border border-black/10 focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer dark:bg-white/10 dark:text-white/60 "
-          rel="noreferrer"
-        >
-          <BsLinkedin></BsLinkedin>
-        </a>
-        <a
-          href="https://github.com/B4rtex777"
-          target="_blank"
-          className=" bg-white text-gray-700  px-4 py-3 flex items-center text-[1.58rem] min-h-[52px]  gap-2 rounded-full border border-black/10 focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 cursor-pointer  active:scale-105 transition dark:bg-white/10 dark:text-white/60"
-          rel="noreferrer"
-        >
-          <FaGithubSquare></FaGithubSquare>
-        </a>
+        <div className="flex gap-2">
+          <a
+            href="https://www.linkedin.com/in/bartłomiej-karpiński-a8940526a/"
+            target="_blank"
+            className=" bg-white text-gray-700 min-h-[52px]  text-[1.35rem] px-4 py-3 flex items-center gap-2 rounded-full border border-black/10 focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer dark:bg-white/10 dark:text-white/60 "
+            rel="noreferrer"
+          >
+            <BsLinkedin></BsLinkedin>
+          </a>
+          <a
+            href="https://github.com/B4rtex777"
+            target="_blank"
+            className=" bg-white text-gray-700  px-4 py-3 flex items-center text-[1.58rem] min-h-[52px]  gap-2 rounded-full border border-black/10 focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 cursor-pointer  active:scale-105 transition dark:bg-white/10 dark:text-white/60"
+            rel="noreferrer"
+          >
+            <FaGithubSquare></FaGithubSquare>
+          </a>
+        </div>
       </motion.div>
     </section>
   );
