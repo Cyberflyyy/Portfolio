@@ -109,7 +109,7 @@ export default function Intro() {
             <BsLinkedin></BsLinkedin>
           </a>
           <a
-            href="https://github.com/B4rtex777"
+            href="https://github.com/Cyberflyyy"
             target="_blank"
             className=" bg-white text-gray-700  px-4 py-3 flex items-center text-[1.58rem] min-h-[52px]  gap-2 rounded-full border border-black/10 focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 cursor-pointer  active:scale-105 transition dark:bg-white/10 dark:text-white/60"
             rel="noreferrer"
